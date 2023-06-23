@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <main class="main">
+        <div class="password-container">
+
+            <input type="text" value="P4$5W0rD" id="password" class="password"> 
+            <div class="generate-box">
+                <div class="character-box">
+                    <p id="character-text"> Character Length</p>
+                    <label for="range" id="label">0</label>
+                </div>
+                <input type="range" class="range" id="range" max = "20" min = "0" step = "1">
+
+                <div class="strength-box">
+                    <p id="strength-text"> STRENGTH</p>
+                    <p id="strength-values">TOO SHORT</p>
+                </div>
+
+                <button class="button" id="button-generate">Generate</button>
+            </div>
+
+        </div>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
